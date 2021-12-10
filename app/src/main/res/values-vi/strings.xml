@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TourNote</string>
+<!--    Common Action-->
+    <string name="common_action_close">Đóng</string>
+    <string name="common_action_save">Lưu</string>
+<!--    Main Screen-->
+    <string name="empty_note">Bạn <b>chưa</b> có <i>ghi chú</i> nào cho mình, hãy tạo mới ghi chú từ <b><u>hôm nay</u></b></string>
+<!--        Main Screen Menu-->
+    <string name="main_menu_about_app">Về Ứng Dụng</string>
+    <string name="main_menu_help">Giúp Đỡ</string>
+    <string name="main_menu_version">Phiên Bản</string>
+<!--        Main Screen Dynamic Menu-->
+    <string name="dynamic_menu_add_category">Thêm Chủ Đề</string>
+    <string name="dynamic_menu_add_note">Thêm Địa Điểm</string>
+    <string name="dynamic_menu_edit_note">Sửa Địa Điểm</string>
+    <string name="dynamic_menu_close">Đóng</string>
+<!--    Note Detail Screen-->
+<!--        Note Detail Menu-->
+    <string name="note_detail_menu_edit_note">Sửa Địa Điểm</string>
+    <string name="note_detail_menu_share">Chia Sẻ</string>
+    <string name="note_detail_menu_delete">Xoá</string>
+<!--    Add Note Screen-->
+    <string name="add_note_category">Chủ Đề</string>
+    <string name="add_note_detail">Chi Tiết Về Địa Điểm</string>
+    <string name="add_note_other_information">Thông Tin Khác</string>
+    <string name="add_note_map_location">Vị Trí Bản Đồ</string>
+    <string name="add_note_note_name_hint">Tên Địa Điểm</string>
+    <string name="add_note_description">Mô Tả Về Địa Điểm</string>
+    <string name="add_note_note_hint">Ghi Chú - Bạn Có Thể Thêm Vào Sau</string>
+    <string name="add_note_address_hint">Địa Chỉ</string>
+</resources>

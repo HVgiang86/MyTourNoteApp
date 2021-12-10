@@ -1,0 +1,4 @@
+com/hvgiang86/tournote/BuildConfig.java
+ com.hvgiang86.tournote.BuildConfig
+com/hvgiang86/tournote/MainActivity.java
+ com.hvgiang86.tournote.MainActivity
