@@ -4,7 +4,7 @@ package com.hvgiang86.tournote.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,16 +20,11 @@ public final class ActivityContactBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView aboutHelpContent;
+  public final ListView myListView;
 
-  @NonNull
-  public final TextView aboutHelpTitle;
-
-  private ActivityContactBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView aboutHelpContent, @NonNull TextView aboutHelpTitle) {
+  private ActivityContactBinding(@NonNull ConstraintLayout rootView, @NonNull ListView myListView) {
     this.rootView = rootView;
-    this.aboutHelpContent = aboutHelpContent;
-    this.aboutHelpTitle = aboutHelpTitle;
+    this.myListView = myListView;
   }
 
   @Override
@@ -59,20 +54,13 @@ public final class ActivityContactBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.about_help_content;
-      TextView aboutHelpContent = ViewBindings.findChildViewById(rootView, id);
-      if (aboutHelpContent == null) {
+      id = R.id.my_list_view;
+      ListView myListView = ViewBindings.findChildViewById(rootView, id);
+      if (myListView == null) {
         break missingId;
       }
 
-      id = R.id.about_help_title;
-      TextView aboutHelpTitle = ViewBindings.findChildViewById(rootView, id);
-      if (aboutHelpTitle == null) {
-        break missingId;
-      }
-
-      return new ActivityContactBinding((ConstraintLayout) rootView, aboutHelpContent,
-          aboutHelpTitle);
+      return new ActivityContactBinding((ConstraintLayout) rootView, myListView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

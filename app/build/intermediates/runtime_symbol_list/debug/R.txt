@@ -1869,8 +1869,6 @@ int id SYM 0x7f08000b
 int id TOP_END 0x7f08000c
 int id TOP_START 0x7f08000d
 int id about 0x7f08000e
-int id about_help_content 0x7f0801f3
-int id about_help_title 0x7f0801f4
 int id accelerate 0x7f08000f
 int id accessibility_action_clickable_span 0x7f080010
 int id accessibility_custom_action_0 0x7f080011
@@ -2160,6 +2158,7 @@ int id mtrl_picker_text_input_range_start 0x7f080127
 int id mtrl_picker_title_text 0x7f080128
 int id mtrl_view_tag_bottom_padding 0x7f080129
 int id multiply 0x7f08012a
+int id my_list_view 0x7f0801f5
 int id navigation_bar_item_icon_view 0x7f08012b
 int id navigation_bar_item_labels_group 0x7f08012c
 int id navigation_bar_item_large_label_view 0x7f08012d
