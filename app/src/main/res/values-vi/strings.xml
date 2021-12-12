@@ -5,7 +5,10 @@
     <string name="common_action_save">Lưu</string>
 <!--    Main Screen-->
     <string name="empty_note">Bạn <b>chưa</b> có <i>ghi chú</i> nào cho mình, hãy tạo mới ghi chú từ <b><u>hôm nay</u></b></string>
+    <string name="author">Hoàng Giang</string>
+    <string name="email">HVGiang86@gmail.com</string>
 <!--        Main Screen Menu-->
+    <string name="main_menu_search">Tìm Kiếm</string>
     <string name="main_menu_about_app">Về Ứng Dụng</string>
     <string name="main_menu_help">Giúp Đỡ</string>
     <string name="main_menu_version">Phiên Bản</string>
@@ -20,12 +23,12 @@
     <string name="note_detail_menu_share">Chia Sẻ</string>
     <string name="note_detail_menu_delete">Xoá</string>
 <!--    Add Note Screen-->
-    <string name="add_note_category">Chủ Đề</string>
-    <string name="add_note_detail">Chi Tiết Về Địa Điểm</string>
-    <string name="add_note_other_information">Thông Tin Khác</string>
-    <string name="add_note_map_location">Vị Trí Bản Đồ</string>
-    <string name="add_note_note_name_hint">Tên Địa Điểm</string>
-    <string name="add_note_description">Mô Tả Về Địa Điểm</string>
-    <string name="add_note_note_hint">Ghi Chú - Bạn Có Thể Thêm Vào Sau</string>
-    <string name="add_note_address_hint">Địa Chỉ</string>
+    <string name="edit_note_category">Chủ Đề</string>
+    <string name="edit_note_detail">Chi Tiết Về Địa Điểm</string>
+    <string name="edit_note_other_information">Thông Tin Khác</string>
+    <string name="edit_note_map_location">Vị Trí Bản Đồ</string>
+    <string name="edit_note_note_name_hint">Tên Địa Điểm</string>
+    <string name="edit_note_description">Mô Tả Về Địa Điểm</string>
+    <string name="edit_note_note_hint">Ghi Chú - Bạn Có Thể Thêm Vào Sau</string>
+    <string name="edit_note_address_hint">Địa Chỉ</string>
 </resources>

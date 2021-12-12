@@ -12,12 +12,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
-        <FrameLayout
-            android:id="@+id/content_frame"
+        android:gravity="center"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/main_activity_tv_empty_note"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/infomation_text_view"
+            android:text="@string/empty_note"
+            android:layout_margin="@dimen/activity_vertical_margin"
             />
+        <ImageView
+            android:id="@+id/main_activity_iv_empty_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty_note"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            />
+
     </LinearLayout>
 
     <!-- Left Menu -->

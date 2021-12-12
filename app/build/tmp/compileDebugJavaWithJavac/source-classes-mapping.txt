@@ -1,4 +1,10 @@
 com/hvgiang86/tournote/BuildConfig.java
  com.hvgiang86.tournote.BuildConfig
-com/hvgiang86/tournote/MainActivity.java
- com.hvgiang86.tournote.MainActivity
+com/hvgiang86/tournote/activities/ContactActivity.java
+ com.hvgiang86.tournote.activities.ContactActivity
+com/hvgiang86/tournote/databinding/ActivityMainBinding.java
+ com.hvgiang86.tournote.databinding.ActivityMainBinding
+com/hvgiang86/tournote/databinding/ActivityContactBinding.java
+ com.hvgiang86.tournote.databinding.ActivityContactBinding
+com/hvgiang86/tournote/activities/MainActivity.java
+ com.hvgiang86.tournote.activities.MainActivity

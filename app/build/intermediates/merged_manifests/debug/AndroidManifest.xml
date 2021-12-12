@@ -8,6 +8,8 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="31" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <supports-screens
         android:largeScreens="true"
         android:normalScreens="true"
@@ -25,7 +27,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.TourNote" >
         <activity
-            android:name="com.hvgiang86.tournote.MainActivity"
+            android:name="com.hvgiang86.tournote.activities.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.hvgiang86.tournote.activities.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

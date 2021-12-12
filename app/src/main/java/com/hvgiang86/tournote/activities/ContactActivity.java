@@ -1,11 +1,19 @@
-package com.hvgiang86.tournote;
+package com.hvgiang86.tournote.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.hvgiang86.tournote.R;
+
+import org.w3c.dom.Text;
 
 public class ContactActivity extends AppCompatActivity {
     public static final String KEY_SHOW_ABOUT   = "show_what";
@@ -25,11 +33,16 @@ public class ContactActivity extends AppCompatActivity {
         Bundle bundle = intent.getExtras();
         if (bundle != null) {
             String valueShow = bundle.getString(KEY_SHOW_ABOUT, "null");
-            if (!valueShow.equals("null")) {
-                Toast.makeText(this, "Show value: " + valueShow, Toast.LENGTH_SHORT).show();
+            TextView titleView = findViewById(R.id.about_help_title);
+            TextView contentView = findViewById(R.id.about_help_content);
+
+            if (valueShow.equals(VALUE_SHOW_ABOUT)) {
+                titleView.setText("About");
+                contentView.setText(R.string.about_content);
             }
-            else {
-                Toast.makeText(this, "Get wrong value from bundle", Toast.LENGTH_SHORT).show();
+            else if (valueShow.equals(VALUE_SHOW_HELP)) {
+                titleView.setText("Help");
+                contentView.setText(R.string.help_content);
             }
         }
         else {
