@@ -1982,6 +1982,7 @@ int id closest 0x7f08007b
 int id collapseActionView 0x7f08007c
 int id confirm_button 0x7f08007d
 int id constraint 0x7f08007e
+int id contact_activity_notification 0x7f0801f7
 int id container 0x7f08007f
 int id content 0x7f080080
 int id contentPanel 0x7f080081
@@ -2081,6 +2082,8 @@ int id item1 0x7f0800de
 int id item2 0x7f0800df
 int id item3 0x7f0800e0
 int id item4 0x7f0800e1
+int id item_fruit_tv_fruit 0x7f0801f6
+int id item_fruit_tv_id 0x7f0801f8
 int id item_touch_helper_previous_elevation 0x7f0800e2
 int id jumpToEnd 0x7f0800e3
 int id jumpToStart 0x7f0800e4
@@ -2427,6 +2430,7 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
+int layout item_fruit 0x7f0b0080
 int layout material_chip_input_combo 0x7f0b002d
 int layout material_clock_display 0x7f0b002e
 int layout material_clock_display_divider 0x7f0b002f

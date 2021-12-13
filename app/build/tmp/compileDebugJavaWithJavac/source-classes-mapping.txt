@@ -1,10 +1,16 @@
 com/hvgiang86/tournote/BuildConfig.java
  com.hvgiang86.tournote.BuildConfig
-com/hvgiang86/tournote/activities/ContactActivity.java
- com.hvgiang86.tournote.activities.ContactActivity
-com/hvgiang86/tournote/databinding/ActivityMainBinding.java
- com.hvgiang86.tournote.databinding.ActivityMainBinding
-com/hvgiang86/tournote/databinding/ActivityContactBinding.java
- com.hvgiang86.tournote.databinding.ActivityContactBinding
 com/hvgiang86/tournote/activities/MainActivity.java
  com.hvgiang86.tournote.activities.MainActivity
+com/hvgiang86/tournote/databinding/ActivityContactBinding.java
+ com.hvgiang86.tournote.databinding.ActivityContactBinding
+com/hvgiang86/tournote/databinding/ActivityMainBinding.java
+ com.hvgiang86.tournote.databinding.ActivityMainBinding
+com/hvgiang86/tournote/databinding/ItemFruitBinding.java
+ com.hvgiang86.tournote.databinding.ItemFruitBinding
+com/hvgiang86/tournote/adapters/NoteListAdapter.java
+ com.hvgiang86.tournote.adapters.NoteListAdapter
+ com.hvgiang86.tournote.adapters.NoteListAdapter$ViewHolder
+com/hvgiang86/tournote/activities/ContactActivity.java
+ com.hvgiang86.tournote.activities.ContactActivity
+ com.hvgiang86.tournote.activities.ContactActivity$1

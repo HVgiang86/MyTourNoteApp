@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,10 +21,15 @@ public final class ActivityContactBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView contactActivityNotification;
+
+  @NonNull
   public final ListView myListView;
 
-  private ActivityContactBinding(@NonNull ConstraintLayout rootView, @NonNull ListView myListView) {
+  private ActivityContactBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView contactActivityNotification, @NonNull ListView myListView) {
     this.rootView = rootView;
+    this.contactActivityNotification = contactActivityNotification;
     this.myListView = myListView;
   }
 
@@ -54,13 +60,20 @@ public final class ActivityContactBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.contact_activity_notification;
+      TextView contactActivityNotification = ViewBindings.findChildViewById(rootView, id);
+      if (contactActivityNotification == null) {
+        break missingId;
+      }
+
       id = R.id.my_list_view;
       ListView myListView = ViewBindings.findChildViewById(rootView, id);
       if (myListView == null) {
         break missingId;
       }
 
-      return new ActivityContactBinding((ConstraintLayout) rootView, myListView);
+      return new ActivityContactBinding((ConstraintLayout) rootView, contactActivityNotification,
+          myListView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

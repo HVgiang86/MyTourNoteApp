@@ -1,19 +1,23 @@
 package com.hvgiang86.tournote.activities;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hvgiang86.tournote.R;
+import com.hvgiang86.tournote.adapters.NoteListAdapter;
 
 import org.w3c.dom.Text;
 
@@ -59,9 +63,23 @@ public class ContactActivity extends AppCompatActivity {
         else {
             Toast.makeText(this, "Bundle Null!", Toast.LENGTH_SHORT).show();
         }*/
+        //Khai bao list view
         ListView myListView = findViewById(R.id.my_list_view);
-        ArrayAdapter<String> myArrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
-        myListView.setAdapter(myArrayAdapter);
+        //Khai bao adapter
+        NoteListAdapter noteListAdapter = new NoteListAdapter(this, R.layout.item_fruit, items);
+        //Gan adapter vao list view
+        myListView.setAdapter(noteListAdapter);
+        //Khai bao su kien onClick
+        myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(ContactActivity.this,"Item selected: " + items[position], Toast.LENGTH_SHORT).show();
+                TextView notificationTextView = findViewById(R.id.contact_activity_notification);
+                notificationTextView.setText(items[position] + " selected!");
+            }
+        });
+        //
+
     }
     @Override
     public boolean onOptionsItemSelected (MenuItem item) {

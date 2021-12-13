@@ -1983,6 +1983,7 @@ id closest
 id collapseActionView
 id confirm_button
 id constraint
+id contact_activity_notification
 id container
 id content
 id contentPanel
@@ -2082,6 +2083,8 @@ id item1
 id item2
 id item3
 id item4
+id item_fruit_tv_fruit
+id item_fruit_tv_id
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -2428,6 +2431,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_fruit
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
