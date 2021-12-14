@@ -4,11 +4,11 @@ package com.hvgiang86.tournote.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.hvgiang86.tournote.R;
@@ -24,13 +24,13 @@ public final class ActivityContactBinding implements ViewBinding {
   public final TextView contactActivityNotification;
 
   @NonNull
-  public final ListView myListView;
+  public final RecyclerView contactActivityRvList;
 
   private ActivityContactBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView contactActivityNotification, @NonNull ListView myListView) {
+      @NonNull TextView contactActivityNotification, @NonNull RecyclerView contactActivityRvList) {
     this.rootView = rootView;
     this.contactActivityNotification = contactActivityNotification;
-    this.myListView = myListView;
+    this.contactActivityRvList = contactActivityRvList;
   }
 
   @Override
@@ -66,14 +66,14 @@ public final class ActivityContactBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.my_list_view;
-      ListView myListView = ViewBindings.findChildViewById(rootView, id);
-      if (myListView == null) {
+      id = R.id.contact_activity_rv_list;
+      RecyclerView contactActivityRvList = ViewBindings.findChildViewById(rootView, id);
+      if (contactActivityRvList == null) {
         break missingId;
       }
 
       return new ActivityContactBinding((ConstraintLayout) rootView, contactActivityNotification,
-          myListView);
+          contactActivityRvList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

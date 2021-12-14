@@ -47,18 +47,13 @@
         android:textStyle="bold"
         />
 
-    <ListView
-        android:id="@+id/my_list_view"
-        style="@android:style/Widget.Material.ListView"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contact_activity_rv_list"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:divider="#6699cc"
-        android:dividerHeight="1dp"
-        android:footerDividersEnabled="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/contact_activity_notification"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contact_activity_notification"
-        android:listSelector="@color/color_accent"
+        app:layout_constraintEnd_toEndOf="parent"
         />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

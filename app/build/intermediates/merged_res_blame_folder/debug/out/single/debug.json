@@ -12,12 +12,12 @@
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
     },
     {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_about_app.png.flat",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_about_app.png"
-    },
-    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_about_app.png.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_about_app.png"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_search.png.flat",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_empty_note.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xxxhdpi\\empty_note.png"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\layout_item_message_receiver.xml.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\item_message_receiver.xml"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_about_app.png.flat",
@@ -120,10 +124,6 @@
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-night\\empty_note.png"
     },
     {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\layout_item_fruit.xml.flat",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\item_fruit.xml"
-    },
-    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_action_help.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_help.png"
     },
@@ -138,6 +138,10 @@
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_avatar.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\mipmap-xhdpi\\ic_avatar.png"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\layout_item_message_sender.xml.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\item_message_sender.xml"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_action_about_app.png.flat",

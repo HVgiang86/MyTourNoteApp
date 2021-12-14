@@ -1983,6 +1983,7 @@ int id collapseActionView 0x7f08007c
 int id confirm_button 0x7f08007d
 int id constraint 0x7f08007e
 int id contact_activity_notification 0x7f0801f7
+int id contact_activity_rv_list 0x7f0801f9
 int id container 0x7f08007f
 int id content 0x7f080080
 int id contentPanel 0x7f080081
@@ -2082,8 +2083,7 @@ int id item1 0x7f0800de
 int id item2 0x7f0800df
 int id item3 0x7f0800e0
 int id item4 0x7f0800e1
-int id item_fruit_tv_fruit 0x7f0801f6
-int id item_fruit_tv_id 0x7f0801f8
+int id item_message_tv_content 0x7f0801fa
 int id item_touch_helper_previous_elevation 0x7f0800e2
 int id jumpToEnd 0x7f0800e3
 int id jumpToStart 0x7f0800e4
@@ -2161,7 +2161,6 @@ int id mtrl_picker_text_input_range_start 0x7f080127
 int id mtrl_picker_title_text 0x7f080128
 int id mtrl_view_tag_bottom_padding 0x7f080129
 int id multiply 0x7f08012a
-int id my_list_view 0x7f0801f5
 int id navigation_bar_item_icon_view 0x7f08012b
 int id navigation_bar_item_labels_group 0x7f08012c
 int id navigation_bar_item_large_label_view 0x7f08012d
@@ -2430,7 +2429,8 @@ int layout design_navigation_menu 0x7f0b0029
 int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
-int layout item_fruit 0x7f0b0080
+int layout item_message_receiver 0x7f0b0081
+int layout item_message_sender 0x7f0b0082
 int layout material_chip_input_combo 0x7f0b002d
 int layout material_clock_display 0x7f0b002e
 int layout material_clock_display_divider 0x7f0b002f

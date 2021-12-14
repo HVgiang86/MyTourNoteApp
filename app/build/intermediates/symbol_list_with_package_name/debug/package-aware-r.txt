@@ -1984,6 +1984,7 @@ id collapseActionView
 id confirm_button
 id constraint
 id contact_activity_notification
+id contact_activity_rv_list
 id container
 id content
 id contentPanel
@@ -2083,8 +2084,7 @@ id item1
 id item2
 id item3
 id item4
-id item_fruit_tv_fruit
-id item_fruit_tv_id
+id item_message_tv_content
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -2162,7 +2162,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id my_list_view
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
@@ -2431,7 +2430,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout item_fruit
+layout item_message_receiver
+layout item_message_sender
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

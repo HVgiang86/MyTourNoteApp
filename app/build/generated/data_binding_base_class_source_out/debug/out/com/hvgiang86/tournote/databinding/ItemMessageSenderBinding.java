@@ -15,21 +15,17 @@ import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
-public final class ItemFruitBinding implements ViewBinding {
+public final class ItemMessageSenderBinding implements ViewBinding {
   @NonNull
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView itemFruitTvFruit;
+  public final TextView itemMessageTvContent;
 
-  @NonNull
-  public final TextView itemFruitTvId;
-
-  private ItemFruitBinding(@NonNull LinearLayout rootView, @NonNull TextView itemFruitTvFruit,
-      @NonNull TextView itemFruitTvId) {
+  private ItemMessageSenderBinding(@NonNull LinearLayout rootView,
+      @NonNull TextView itemMessageTvContent) {
     this.rootView = rootView;
-    this.itemFruitTvFruit = itemFruitTvFruit;
-    this.itemFruitTvId = itemFruitTvId;
+    this.itemMessageTvContent = itemMessageTvContent;
   }
 
   @Override
@@ -39,14 +35,14 @@ public final class ItemFruitBinding implements ViewBinding {
   }
 
   @NonNull
-  public static ItemFruitBinding inflate(@NonNull LayoutInflater inflater) {
+  public static ItemMessageSenderBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, null, false);
   }
 
   @NonNull
-  public static ItemFruitBinding inflate(@NonNull LayoutInflater inflater,
+  public static ItemMessageSenderBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup parent, boolean attachToParent) {
-    View root = inflater.inflate(R.layout.item_fruit, parent, false);
+    View root = inflater.inflate(R.layout.item_message_sender, parent, false);
     if (attachToParent) {
       parent.addView(root);
     }
@@ -54,24 +50,18 @@ public final class ItemFruitBinding implements ViewBinding {
   }
 
   @NonNull
-  public static ItemFruitBinding bind(@NonNull View rootView) {
+  public static ItemMessageSenderBinding bind(@NonNull View rootView) {
     // The body of this method is generated in a way you would not otherwise write.
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.item_fruit_tv_fruit;
-      TextView itemFruitTvFruit = ViewBindings.findChildViewById(rootView, id);
-      if (itemFruitTvFruit == null) {
+      id = R.id.item_message_tv_content;
+      TextView itemMessageTvContent = ViewBindings.findChildViewById(rootView, id);
+      if (itemMessageTvContent == null) {
         break missingId;
       }
 
-      id = R.id.item_fruit_tv_id;
-      TextView itemFruitTvId = ViewBindings.findChildViewById(rootView, id);
-      if (itemFruitTvId == null) {
-        break missingId;
-      }
-
-      return new ItemFruitBinding((LinearLayout) rootView, itemFruitTvFruit, itemFruitTvId);
+      return new ItemMessageSenderBinding((LinearLayout) rootView, itemMessageTvContent);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
