@@ -80,6 +80,10 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(intent);
                 return true;
+            case R.id.second_activity:
+                intent = new Intent(this,SecondActivity.class);
+                startActivity(intent);
+                break;
         }
 
         return super.onOptionsItemSelected(item);

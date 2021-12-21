@@ -27,6 +27,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.TourNote" >
         <activity
+            android:name="com.hvgiang86.tournote.activities.SecondActivity"
+            android:exported="false" />
+        <activity
             android:name="com.hvgiang86.tournote.activities.ContactActivity"
             android:exported="false" />
         <activity

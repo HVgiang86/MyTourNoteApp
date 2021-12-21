@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TourNote</string>
+    <string name="app_name">Tour Note</string>
 <!--    Common Action-->
     <string name="common_action_close">Đóng</string>
     <string name="common_action_save">Lưu</string>

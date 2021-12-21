@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hvgiang86.tournote">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <supports-screens
         android:largeScreens="true"
@@ -17,6 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TourNote">
+        <activity
+            android:name=".activities.SecondActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.ContactActivity"
             android:exported="false" />

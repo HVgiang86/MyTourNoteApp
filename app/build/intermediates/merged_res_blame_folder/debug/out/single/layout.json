@@ -4,15 +4,19 @@
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\activity_contact.xml"
     },
     {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_message_sender.xml",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\item_message_sender.xml"
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_second.xml",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\activity_second.xml"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_message_receiver.xml",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\item_message_receiver.xml"
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\note_item.xml",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\note_item.xml"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_view_page.xml",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\fragment_view_page.xml"
     }
 ]

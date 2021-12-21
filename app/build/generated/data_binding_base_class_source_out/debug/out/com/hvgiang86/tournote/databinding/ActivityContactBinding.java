@@ -8,7 +8,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.hvgiang86.tournote.R;
@@ -21,16 +20,16 @@ public final class ActivityContactBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView contactActivityNotification;
+  public final TextView aboutHelpContent;
 
   @NonNull
-  public final RecyclerView contactActivityRvList;
+  public final TextView aboutHelpTitle;
 
   private ActivityContactBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView contactActivityNotification, @NonNull RecyclerView contactActivityRvList) {
+      @NonNull TextView aboutHelpContent, @NonNull TextView aboutHelpTitle) {
     this.rootView = rootView;
-    this.contactActivityNotification = contactActivityNotification;
-    this.contactActivityRvList = contactActivityRvList;
+    this.aboutHelpContent = aboutHelpContent;
+    this.aboutHelpTitle = aboutHelpTitle;
   }
 
   @Override
@@ -60,20 +59,20 @@ public final class ActivityContactBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.contact_activity_notification;
-      TextView contactActivityNotification = ViewBindings.findChildViewById(rootView, id);
-      if (contactActivityNotification == null) {
+      id = R.id.about_help_content;
+      TextView aboutHelpContent = ViewBindings.findChildViewById(rootView, id);
+      if (aboutHelpContent == null) {
         break missingId;
       }
 
-      id = R.id.contact_activity_rv_list;
-      RecyclerView contactActivityRvList = ViewBindings.findChildViewById(rootView, id);
-      if (contactActivityRvList == null) {
+      id = R.id.about_help_title;
+      TextView aboutHelpTitle = ViewBindings.findChildViewById(rootView, id);
+      if (aboutHelpTitle == null) {
         break missingId;
       }
 
-      return new ActivityContactBinding((ConstraintLayout) rootView, contactActivityNotification,
-          contactActivityRvList);
+      return new ActivityContactBinding((ConstraintLayout) rootView, aboutHelpContent,
+          aboutHelpTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,18 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hvgiang86.tournote.R;
-import com.hvgiang86.tournote.adapters.MessageListAdapter;
-import com.hvgiang86.tournote.models.Message;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,23 +22,13 @@ public class ContactActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        List<Message> messageList = new ArrayList<>();
-        messageList.add(new Message("Hello", true));
-        messageList.add(new Message("Hi", false));
-        messageList.add(new Message("Nice to meet you", true));
-        messageList.add(new Message("Nice to meet you too", false));
-        messageList.add(new Message("He he", false));
-        messageList.add(new Message("I'm Giang from VietNam", true));
-        messageList.add(new Message("Oh! I'm David Teo from America", false));
-        messageList.add(new Message("Bye!", true));
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
-        /*Intent intent = getIntent();
+        Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         if (bundle != null) {
             String valueShow = bundle.getString(KEY_SHOW_ABOUT, "null");
@@ -61,18 +46,7 @@ public class ContactActivity extends AppCompatActivity {
         }
         else {
             Toast.makeText(this, "Bundle Null!", Toast.LENGTH_SHORT).show();
-        }*/
-
-
-        //Khai bao Recycler View
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.contact_activity_rv_list);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setHasFixedSize(true);;
-        //set adapter cho recycler view
-        recyclerView.setAdapter(new MessageListAdapter(messageList, this));
-        //Khai bao su kien onClick
-        //
+        }
 
     }
     @Override
