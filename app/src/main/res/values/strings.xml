@@ -14,10 +14,10 @@
     <string name="main_menu_version">Version</string>
     <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
-    
+
     <string name="main_menu_second_activity">Second Activity</string>
     <string name="main_menu_practice_activity">Practice Activity</string>
-    
+
     <!--        Main Screen Dynamic Menu-->
     <string name="dynamic_menu_add_category">Add Category</string>
     <string name="dynamic_menu_add_note">Add Note</string>

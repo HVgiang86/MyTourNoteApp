@@ -1,27 +1,38 @@
-com/hvgiang86/tournote/databinding/FragmentViewPageBinding.java
- com.hvgiang86.tournote.databinding.FragmentViewPageBinding
-com/hvgiang86/tournote/databinding/NoteItemBinding.java
- com.hvgiang86.tournote.databinding.NoteItemBinding
-com/hvgiang86/tournote/databinding/ActivitySecondBinding.java
- com.hvgiang86.tournote.databinding.ActivitySecondBinding
-com/hvgiang86/tournote/BuildConfig.java
- com.hvgiang86.tournote.BuildConfig
-com/hvgiang86/tournote/activities/ContactActivity.java
- com.hvgiang86.tournote.activities.ContactActivity
-com/hvgiang86/tournote/databinding/ActivityMainBinding.java
- com.hvgiang86.tournote.databinding.ActivityMainBinding
-com/hvgiang86/tournote/models/SubNote.java
- com.hvgiang86.tournote.models.SubNote
-com/hvgiang86/tournote/models/Note.java
- com.hvgiang86.tournote.models.Note
 com/hvgiang86/tournote/databinding/ActivityContactBinding.java
  com.hvgiang86.tournote.databinding.ActivityContactBinding
-com/hvgiang86/tournote/activities/MainActivity.java
- com.hvgiang86.tournote.activities.MainActivity
+com/hvgiang86/tournote/models/Note.java
+ com.hvgiang86.tournote.models.Note
+com/hvgiang86/tournote/models/SubNote.java
+ com.hvgiang86.tournote.models.SubNote
+com/hvgiang86/tournote/BuildConfig.java
+ com.hvgiang86.tournote.BuildConfig
 com/hvgiang86/tournote/adapters/NoteListAdapter.java
  com.hvgiang86.tournote.adapters.NoteListAdapter
  com.hvgiang86.tournote.adapters.NoteListAdapter$1
  com.hvgiang86.tournote.adapters.NoteListAdapter$2
  com.hvgiang86.tournote.adapters.NoteListAdapter$3
+ com.hvgiang86.tournote.adapters.NoteListAdapter$4
+com/hvgiang86/tournote/databinding/FragmentNoteListBinding.java
+ com.hvgiang86.tournote.databinding.FragmentNoteListBinding
+com/hvgiang86/tournote/databinding/NoteItemBinding.java
+ com.hvgiang86.tournote.databinding.NoteItemBinding
+com/hvgiang86/tournote/databinding/ActivitySecondBinding.java
+ com.hvgiang86.tournote.databinding.ActivitySecondBinding
+com/hvgiang86/tournote/activities/ContactActivity.java
+ com.hvgiang86.tournote.activities.ContactActivity
+com/hvgiang86/tournote/databinding/FragmentEmptyNoteBinding.java
+ com.hvgiang86.tournote.databinding.FragmentEmptyNoteBinding
+com/hvgiang86/tournote/databinding/ActivityMainBinding.java
+ com.hvgiang86.tournote.databinding.ActivityMainBinding
+com/hvgiang86/tournote/fragments/EmptyNoteFragment.java
+ com.hvgiang86.tournote.fragments.EmptyNoteFragment
+com/hvgiang86/tournote/models/Category.java
+ com.hvgiang86.tournote.models.Category
+com/hvgiang86/tournote/adapters/NoteListPagerAdapter.java
+ com.hvgiang86.tournote.adapters.NoteListPagerAdapter
+com/hvgiang86/tournote/fragments/NoteListFragment.java
+ com.hvgiang86.tournote.fragments.NoteListFragment
+com/hvgiang86/tournote/activities/MainActivity.java
+ com.hvgiang86.tournote.activities.MainActivity
 com/hvgiang86/tournote/activities/SecondActivity.java
  com.hvgiang86.tournote.activities.SecondActivity

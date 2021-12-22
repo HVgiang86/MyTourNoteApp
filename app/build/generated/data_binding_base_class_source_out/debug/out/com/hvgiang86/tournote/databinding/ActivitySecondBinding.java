@@ -4,12 +4,13 @@ package com.hvgiang86.tournote.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 import com.hvgiang86.tournote.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,12 +21,16 @@ public final class ActivitySecondBinding implements ViewBinding {
   private final LinearLayoutCompat rootView;
 
   @NonNull
-  public final ListView secondActivityNoteList;
+  public final TabLayout thirdActivityTabLayout;
+
+  @NonNull
+  public final ViewPager thirdActivityViewPaper;
 
   private ActivitySecondBinding(@NonNull LinearLayoutCompat rootView,
-      @NonNull ListView secondActivityNoteList) {
+      @NonNull TabLayout thirdActivityTabLayout, @NonNull ViewPager thirdActivityViewPaper) {
     this.rootView = rootView;
-    this.secondActivityNoteList = secondActivityNoteList;
+    this.thirdActivityTabLayout = thirdActivityTabLayout;
+    this.thirdActivityViewPaper = thirdActivityViewPaper;
   }
 
   @Override
@@ -55,13 +60,20 @@ public final class ActivitySecondBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.second_activity_note_list;
-      ListView secondActivityNoteList = ViewBindings.findChildViewById(rootView, id);
-      if (secondActivityNoteList == null) {
+      id = R.id.third_activity_tab_layout;
+      TabLayout thirdActivityTabLayout = ViewBindings.findChildViewById(rootView, id);
+      if (thirdActivityTabLayout == null) {
         break missingId;
       }
 
-      return new ActivitySecondBinding((LinearLayoutCompat) rootView, secondActivityNoteList);
+      id = R.id.third_activity_view_paper;
+      ViewPager thirdActivityViewPaper = ViewBindings.findChildViewById(rootView, id);
+      if (thirdActivityViewPaper == null) {
+        break missingId;
+      }
+
+      return new ActivitySecondBinding((LinearLayoutCompat) rootView, thirdActivityTabLayout,
+          thirdActivityViewPaper);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

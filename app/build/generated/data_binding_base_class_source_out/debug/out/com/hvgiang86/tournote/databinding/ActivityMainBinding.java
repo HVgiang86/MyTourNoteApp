@@ -5,13 +5,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 import com.hvgiang86.tournote.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -22,16 +23,13 @@ public final class ActivityMainBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
-  public final LinearLayout mainActivityContent;
-
-  @NonNull
   public final DrawerLayout mainActivityDrawerLayout;
 
   @NonNull
-  public final ImageView mainActivityIvEmptyNote;
+  public final ImageView mainActivityIvHeaderAvatar;
 
   @NonNull
-  public final ImageView mainActivityIvHeaderAvatar;
+  public final TabLayout mainActivityTabLayout;
 
   @NonNull
   public final TextView mainActivityTvAuthorName;
@@ -40,21 +38,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView mainActivityTvEmail;
 
   @NonNull
-  public final TextView mainActivityTvEmptyNote;
+  public final ViewPager mainActivityViewPaper;
 
   private ActivityMainBinding(@NonNull DrawerLayout rootView,
-      @NonNull LinearLayout mainActivityContent, @NonNull DrawerLayout mainActivityDrawerLayout,
-      @NonNull ImageView mainActivityIvEmptyNote, @NonNull ImageView mainActivityIvHeaderAvatar,
-      @NonNull TextView mainActivityTvAuthorName, @NonNull TextView mainActivityTvEmail,
-      @NonNull TextView mainActivityTvEmptyNote) {
+      @NonNull DrawerLayout mainActivityDrawerLayout, @NonNull ImageView mainActivityIvHeaderAvatar,
+      @NonNull TabLayout mainActivityTabLayout, @NonNull TextView mainActivityTvAuthorName,
+      @NonNull TextView mainActivityTvEmail, @NonNull ViewPager mainActivityViewPaper) {
     this.rootView = rootView;
-    this.mainActivityContent = mainActivityContent;
     this.mainActivityDrawerLayout = mainActivityDrawerLayout;
-    this.mainActivityIvEmptyNote = mainActivityIvEmptyNote;
     this.mainActivityIvHeaderAvatar = mainActivityIvHeaderAvatar;
+    this.mainActivityTabLayout = mainActivityTabLayout;
     this.mainActivityTvAuthorName = mainActivityTvAuthorName;
     this.mainActivityTvEmail = mainActivityTvEmail;
-    this.mainActivityTvEmptyNote = mainActivityTvEmptyNote;
+    this.mainActivityViewPaper = mainActivityViewPaper;
   }
 
   @Override
@@ -84,23 +80,17 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.main_activity_content;
-      LinearLayout mainActivityContent = ViewBindings.findChildViewById(rootView, id);
-      if (mainActivityContent == null) {
-        break missingId;
-      }
-
       DrawerLayout mainActivityDrawerLayout = (DrawerLayout) rootView;
-
-      id = R.id.main_activity_iv_empty_note;
-      ImageView mainActivityIvEmptyNote = ViewBindings.findChildViewById(rootView, id);
-      if (mainActivityIvEmptyNote == null) {
-        break missingId;
-      }
 
       id = R.id.main_activity_iv_header_avatar;
       ImageView mainActivityIvHeaderAvatar = ViewBindings.findChildViewById(rootView, id);
       if (mainActivityIvHeaderAvatar == null) {
+        break missingId;
+      }
+
+      id = R.id.main_activity_tab_layout;
+      TabLayout mainActivityTabLayout = ViewBindings.findChildViewById(rootView, id);
+      if (mainActivityTabLayout == null) {
         break missingId;
       }
 
@@ -116,15 +106,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.main_activity_tv_empty_note;
-      TextView mainActivityTvEmptyNote = ViewBindings.findChildViewById(rootView, id);
-      if (mainActivityTvEmptyNote == null) {
+      id = R.id.main_activity_view_paper;
+      ViewPager mainActivityViewPaper = ViewBindings.findChildViewById(rootView, id);
+      if (mainActivityViewPaper == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((DrawerLayout) rootView, mainActivityContent,
-          mainActivityDrawerLayout, mainActivityIvEmptyNote, mainActivityIvHeaderAvatar,
-          mainActivityTvAuthorName, mainActivityTvEmail, mainActivityTvEmptyNote);
+      return new ActivityMainBinding((DrawerLayout) rootView, mainActivityDrawerLayout,
+          mainActivityIvHeaderAvatar, mainActivityTabLayout, mainActivityTvAuthorName,
+          mainActivityTvEmail, mainActivityViewPaper);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

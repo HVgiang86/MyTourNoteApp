@@ -5,23 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.SecondActivity"
-    android:orientation="vertical"
-    android:background="#eeeeee">
+    android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/second_activity_note_list"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/third_activity_view_paper"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:dividerHeight="@dimen/activity_vertical_margin"
-        android:divider="#eeeeee"
-        android:paddingTop="3dp"
-        android:paddingBottom="3dp"
-        android:paddingStart="@dimen/activity_horizontal_margin"
-        android:paddingEnd="@dimen/activity_horizontal_margin"
-        android:clipToPadding="false"
-        android:scrollbars="none"
-        />
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/third_activity_tab_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:theme="@style/Widget.Design.TabLayout"
+            app:tabTextColor="#EDE1E1"
+            app:tabSelectedTextColor="@color/white"
+            android:background="@color/color_primary"
+            app:tabIndicatorColor="@color/color_accent"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="scrollable"
+            android:elevation="5dp"
+            app:tabMinWidth="135dp"
+            >
+        </com.google.android.material.tabs.TabLayout>
+
+    </androidx.viewpager.widget.ViewPager>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

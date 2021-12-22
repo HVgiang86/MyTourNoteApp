@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_note"
     android:layout_width="match_parent"
     android:layout_height="420dp"
     android:orientation="vertical"
-    android:elevation="3dp"
-    android:background="@drawable/bg_note_item">
+    android:elevation="5dp"
+    android:background="@drawable/bg_note_item"
+    >
 
-<!--    Header-->
+    <!--    Header-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="72dp"
@@ -22,7 +22,6 @@
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:text="1/15"
             android:layout_gravity="center_vertical"
             android:gravity="center"
             android:textSize="14dp"
@@ -38,13 +37,13 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
             >
             <TextView
                 android:id="@+id/item_note_tv_note_title"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:gravity="center_vertical"
-                android:text="Title"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:layout_weight="1"
@@ -55,14 +54,13 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:layout_gravity="center_vertical"
-                android:text="Description"
                 android:textSize="16sp"
                 android:ellipsize="end"
                 />
         </LinearLayout>
     </LinearLayout>
 
-<!--    image-->
+    <!--    image-->
     <ImageView
         android:id="@+id/item_note_iv_thumbnail"
         android:layout_width="match_parent"
@@ -70,7 +68,7 @@
         android:src="@drawable/image_thac_ban_gioc"
         android:scaleType="fitXY"
         />
-<!--    Note Detail-->
+    <!--    Note Detail-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="60dp"
@@ -85,7 +83,6 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="Tittle"
             android:textSize="16sp"
             android:textStyle="bold"
             />
@@ -95,14 +92,13 @@
             android:layout_height="0dp"
             android:layout_weight="2"
             android:gravity="start|top"
-            android:text="content"
             android:ellipsize="end"
             android:textSize="16sp"
             android:textColor="@color/black"
             />
     </LinearLayout>
 
-<!--    Footer-->
+    <!--    Footer-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

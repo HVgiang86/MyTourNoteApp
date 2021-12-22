@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_empty_note.png.flat",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xhdpi\\empty_note.png"
-    },
-    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_edit.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-hdpi\\ic_edit.png"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_empty_note.png.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xhdpi\\empty_note.png"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_edit.png.flat",
@@ -20,6 +20,10 @@
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\note_item.xml"
     },
     {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_note_list.xml.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\fragment_note_list.xml"
+    },
+    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_empty_note.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-hdpi\\empty_note.png"
     },
@@ -28,12 +32,12 @@
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
     },
     {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_action_about_app.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_about_app.png"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_search.png.flat",
@@ -168,6 +172,10 @@
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_share.png"
     },
     {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_empty_note.xml.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\fragment_empty_note.xml"
+    },
+    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -186,10 +194,6 @@
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_edit.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xxhdpi\\ic_edit.png"
-    },
-    {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_view_page.xml.flat",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\fragment_view_page.xml"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_delete.png.flat",

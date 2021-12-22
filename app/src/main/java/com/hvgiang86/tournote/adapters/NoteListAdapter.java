@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -86,6 +87,14 @@ public class NoteListAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 Toast.makeText(activity,"Delete Button selected!",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        LinearLayout itemNote = (LinearLayout) convertView.findViewById(R.id.item_note);
+        itemNote.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(activity, noteList.get(position).getNoteTitle() + " has been selected",Toast.LENGTH_SHORT).show();
             }
         });
 

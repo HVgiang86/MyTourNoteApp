@@ -22,6 +22,9 @@ public final class NoteItemBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final LinearLayout itemNote;
+
+  @NonNull
   public final ImageButton itemNoteIbtDelete;
 
   @NonNull
@@ -48,12 +51,14 @@ public final class NoteItemBinding implements ViewBinding {
   @NonNull
   public final TextView itemNoteTvTimeMark;
 
-  private NoteItemBinding(@NonNull LinearLayout rootView, @NonNull ImageButton itemNoteIbtDelete,
-      @NonNull ImageButton itemNoteIbtEdit, @NonNull ImageButton itemNoteIbtShare,
-      @NonNull ImageView itemNoteIvThumbnail, @NonNull TextView itemNoteTvNoteContent,
-      @NonNull TextView itemNoteTvNoteDescription, @NonNull TextView itemNoteTvNoteId,
-      @NonNull TextView itemNoteTvNoteTitle, @NonNull TextView itemNoteTvTimeMark) {
+  private NoteItemBinding(@NonNull LinearLayout rootView, @NonNull LinearLayout itemNote,
+      @NonNull ImageButton itemNoteIbtDelete, @NonNull ImageButton itemNoteIbtEdit,
+      @NonNull ImageButton itemNoteIbtShare, @NonNull ImageView itemNoteIvThumbnail,
+      @NonNull TextView itemNoteTvNoteContent, @NonNull TextView itemNoteTvNoteDescription,
+      @NonNull TextView itemNoteTvNoteId, @NonNull TextView itemNoteTvNoteTitle,
+      @NonNull TextView itemNoteTvTimeMark) {
     this.rootView = rootView;
+    this.itemNote = itemNote;
     this.itemNoteIbtDelete = itemNoteIbtDelete;
     this.itemNoteIbtEdit = itemNoteIbtEdit;
     this.itemNoteIbtShare = itemNoteIbtShare;
@@ -92,6 +97,8 @@ public final class NoteItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      LinearLayout itemNote = (LinearLayout) rootView;
+
       id = R.id.item_note_ibt_delete;
       ImageButton itemNoteIbtDelete = ViewBindings.findChildViewById(rootView, id);
       if (itemNoteIbtDelete == null) {
@@ -146,9 +153,9 @@ public final class NoteItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new NoteItemBinding((LinearLayout) rootView, itemNoteIbtDelete, itemNoteIbtEdit,
-          itemNoteIbtShare, itemNoteIvThumbnail, itemNoteTvNoteContent, itemNoteTvNoteDescription,
-          itemNoteTvNoteId, itemNoteTvNoteTitle, itemNoteTvTimeMark);
+      return new NoteItemBinding((LinearLayout) rootView, itemNote, itemNoteIbtDelete,
+          itemNoteIbtEdit, itemNoteIbtShare, itemNoteIvThumbnail, itemNoteTvNoteContent,
+          itemNoteTvNoteDescription, itemNoteTvNoteId, itemNoteTvNoteTitle, itemNoteTvTimeMark);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

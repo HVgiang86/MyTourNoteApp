@@ -1088,6 +1088,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color app_background_color
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -2090,6 +2091,7 @@ id item1
 id item2
 id item3
 id item4
+id item_note
 id item_note_ibt_delete
 id item_note_ibt_edit
 id item_note_ibt_share
@@ -2116,9 +2118,11 @@ id main_activity_content
 id main_activity_drawer_layout
 id main_activity_iv_empty_note
 id main_activity_iv_header_avatar
+id main_activity_tab_layout
 id main_activity_tv_author_name
 id main_activity_tv_email
 id main_activity_tv_empty_note
+id main_activity_view_paper
 id masked
 id match_constraint
 id match_parent
@@ -2247,7 +2251,6 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id second_activity
-id second_activity_note_list
 id select_dialog_listview
 id selected
 id selection_type
@@ -2324,6 +2327,8 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id third_activity_tab_layout
+id third_activity_view_paper
 id time
 id title
 id titleDividerNoCustom
@@ -2347,8 +2352,6 @@ id up
 id useLogo
 id vertical_only
 id view_offset_helper
-id view_page_fragment_fl
-id view_page_fragment_tv_section_label
 id view_transition
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2450,7 +2453,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_view_page
+layout fragment_empty_note
+layout fragment_note_list
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider

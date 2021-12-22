@@ -4,6 +4,10 @@
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\activity_contact.xml"
     },
     {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_empty_note.xml",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\fragment_empty_note.xml"
+    },
+    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_second.xml",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\activity_second.xml"
     },
@@ -18,5 +22,9 @@
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_view_page.xml",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\fragment_view_page.xml"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_note_list.xml",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\layout\\fragment_note_list.xml"
     }
 ]
