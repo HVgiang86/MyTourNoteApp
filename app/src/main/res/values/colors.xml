@@ -12,4 +12,5 @@
     <color name="color_primary_variant">#0097A7</color>
     <color name="color_accent">#FFEB3B</color>
     <color name="app_background_color">#EEEEEE</color>
+    <color name="gray">#D8D8D8</color>
 </resources>

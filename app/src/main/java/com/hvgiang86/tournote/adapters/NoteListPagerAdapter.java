@@ -33,12 +33,23 @@ public class NoteListPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return categoryList.size();
+        if (categoryList.size() == 0) {
+            return 1;
+        }
+        else {
+            return categoryList.size();
+        }
     }
 
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        return categoryList.get(position).getCategory();
+        if (categoryList.size() == 0) {
+            return "Chung Chung";
+        }
+        else {
+            return categoryList.get(position).getCategory();
+        }
+
     }
 }

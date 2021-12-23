@@ -1156,6 +1156,7 @@ int color error_color_material_dark 0x7f05005d
 int color error_color_material_light 0x7f05005e
 int color foreground_material_dark 0x7f05005f
 int color foreground_material_light 0x7f050060
+int color gray 0x7f0500dc
 int color highlighted_text_material_dark 0x7f050061
 int color highlighted_text_material_light 0x7f050062
 int color ic_launcher_background 0x7f050063
@@ -1795,6 +1796,7 @@ int drawable avd_show_password 0x7f070057
 int drawable bg_edt_search 0x7f070058
 int drawable bg_note_id 0x7f070097
 int drawable bg_note_item 0x7f070098
+int drawable bg_splashscreen 0x7f07009d
 int drawable btn_checkbox_checked_mtrl 0x7f070059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07005a
 int drawable btn_checkbox_unchecked_mtrl 0x7f07005b
@@ -3405,6 +3407,8 @@ int style Widget_MaterialComponents_Toolbar_Surface 0x7f1002d4
 int style Widget_MaterialComponents_Tooltip 0x7f1002d5
 int style Widget_Support_CoordinatorLayout 0x7f1002d6
 int style infomation_text_view 0x7f1002d7
+int style splash_screen_theme 0x7f1002d9
+int style tab_text 0x7f1002d8
 int[] styleable ActionBar { 0x7f030040, 0x7f030047, 0x7f030048, 0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 0x7f0300f2, 0x7f0300f3, 0x7f030119, 0x7f03012a, 0x7f03012b, 0x7f030143, 0x7f03019b, 0x7f0301a2, 0x7f0301a8, 0x7f0301a9, 0x7f0301ac, 0x7f0301bd, 0x7f0301cf, 0x7f030244, 0x7f03029b, 0x7f0302cb, 0x7f0302d2, 0x7f0302d3, 0x7f030331, 0x7f030335, 0x7f03039d, 0x7f0303a9 }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1

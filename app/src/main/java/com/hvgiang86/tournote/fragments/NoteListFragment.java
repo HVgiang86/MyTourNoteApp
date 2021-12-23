@@ -40,6 +40,5 @@ public class NoteListFragment extends ListFragment {
         super.onActivityCreated(savedInstanceState);
         NoteListAdapter noteListAdapter = new NoteListAdapter(getActivity(),noteList);
         getListView().setAdapter(noteListAdapter);
-
     }
 }

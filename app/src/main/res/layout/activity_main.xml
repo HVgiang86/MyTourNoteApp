@@ -19,7 +19,6 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:theme="@style/Widget.Design.TabLayout"
             app:tabTextColor="#EDE1E1"
             app:tabSelectedTextColor="@color/white"
             android:background="@color/color_primary"
@@ -28,6 +27,7 @@
             app:tabMode="scrollable"
             android:elevation="5dp"
             app:tabMinWidth="135dp"
+            app:tabTextAppearance="@style/tab_text"
             >
         </com.google.android.material.tabs.TabLayout>
 

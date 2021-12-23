@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_edit.png.flat",
-        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-hdpi\\ic_edit.png"
-    },
-    {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_empty_note.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xhdpi\\empty_note.png"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_edit.png.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-hdpi\\ic_edit.png"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_edit.png.flat",
@@ -50,6 +50,10 @@
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_action_about_app.png.flat",
         "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_about_app.png"
+    },
+    {
+        "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\drawable_bg_splashscreen.xml.flat",
+        "source": "C:\\Temp_Project\\TourNote\\TourNote\\app\\src\\main\\res\\drawable\\bg_splashscreen.xml"
     },
     {
         "merged": "C:\\Temp_Project\\TourNote\\TourNote\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_avatar.png.flat",

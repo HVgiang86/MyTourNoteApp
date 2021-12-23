@@ -27,6 +27,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.TourNote" >
         <activity
+            android:name="com.hvgiang86.tournote.activities.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/splash_screen_theme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.hvgiang86.tournote.activities.SecondActivity"
             android:exported="false" />
         <activity
@@ -34,12 +44,7 @@
             android:exported="false" />
         <activity
             android:name="com.hvgiang86.tournote.activities.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false" >
         </activity>
 
         <provider
