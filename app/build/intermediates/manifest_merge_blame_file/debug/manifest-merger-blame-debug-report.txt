@@ -6,102 +6,102 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml
+8-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml
+9-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <supports-screens
-13-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:7:5-11:40
+13-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:7:5-11:40
 14        android:largeScreens="true"
-14-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:8:9-36
+14-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:8:9-36
 15        android:normalScreens="true"
-15-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:9:9-37
+15-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:9:9-37
 16        android:smallScreens="false"
-16-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:10:9-37
+16-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:10:9-37
 17        android:xlargeScreens="true" />
-17-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:11:9-37
+17-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:11:9-37
 18
 19    <application
-19-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:13:5-40:19
+19-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:13:5-40:19
 20        android:allowBackup="true"
-20-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:14:9-35
+20-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:14:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.7.0] C:\Users\HVGia\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\9339927e08badd09bc5459e4ba900d5f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
-23-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:15:9-43
+23-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:15:9-43
 24        android:label="@string/app_name"
-24-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:16:9-41
+24-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:16:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
-25-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:17:9-54
+25-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:17:9-54
 26        android:supportsRtl="true"
-26-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:18:9-35
+26-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:18:9-35
 27        android:testOnly="true"
 28        android:theme="@style/Theme.TourNote" >
-28-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:19:9-46
+28-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:19:9-46
 29        <activity
-29-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:20:9-29:20
+29-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:20:9-29:20
 30            android:name="com.hvgiang86.tournote.activities.SplashScreenActivity"
-30-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:21:13-60
+30-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:21:13-60
 31            android:exported="true"
-31-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:23:13-36
+31-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:23:13-36
 32            android:theme="@style/splash_screen_theme" >
-32-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:22:13-55
+32-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:22:13-55
 33            <intent-filter>
-33-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:24:13-28:29
+33-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:24:13-28:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:25:17-69
-34-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:25:25-66
+34-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:25:17-69
+34-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:25:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:27:17-77
-36-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:27:27-74
+36-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:27:17-77
+36-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:27:27-74
 37            </intent-filter>
 38        </activity>
 39        <activity
-39-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:30:9-32:40
+39-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:30:9-32:40
 40            android:name="com.hvgiang86.tournote.activities.SecondActivity"
-40-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:31:13-54
+40-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:31:13-54
 41            android:exported="false" />
-41-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:32:13-37
+41-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:32:13-37
 42        <activity
-42-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:33:9-35:40
+42-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:33:9-35:40
 43            android:name="com.hvgiang86.tournote.activities.ContactActivity"
-43-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:34:13-55
+43-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:34:13-55
 44            android:exported="false" />
-44-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:35:13-37
+44-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:35:13-37
 45        <activity
-45-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:36:9-39:20
+45-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:36:9-39:20
 46            android:name="com.hvgiang86.tournote.activities.MainActivity"
-46-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:37:13-52
+46-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:37:13-52
 47            android:exported="false" >
-47-->C:\Temp_Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:38:13-37
+47-->C:\Project\TourNote\TourNote\app\src\main\AndroidManifest.xml:38:13-37
 48        </activity>
 49
 50        <provider
-50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HVGia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 51            android:name="androidx.startup.InitializationProvider"
-51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HVGia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
 52            android:authorities="com.hvgiang86.tournote.androidx-startup"
-52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HVGia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
 53            android:exported="false" >
-53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HVGia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
 54            <meta-data
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HVGia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HVGia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
 56                android:value="androidx.startup" />
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HVGia\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\09b79be83fba3907471fe1de63f439d3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
 57            <meta-data
-57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HVGia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HVGia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 59                android:value="androidx.startup" />
-59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HVGia\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\0e4a425e61d135d109d64d5f17d999df\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 60        </provider>
 61    </application>
 62

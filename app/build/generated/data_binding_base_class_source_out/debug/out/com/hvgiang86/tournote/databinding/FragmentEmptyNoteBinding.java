@@ -4,7 +4,6 @@ package com.hvgiang86.tournote.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -19,10 +18,7 @@ import java.lang.String;
 
 public final class FragmentEmptyNoteBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
-
-  @NonNull
-  public final LinearLayout mainActivityContent;
+  private final LinearLayout rootView;
 
   @NonNull
   public final ImageView mainActivityIvEmptyNote;
@@ -30,18 +26,16 @@ public final class FragmentEmptyNoteBinding implements ViewBinding {
   @NonNull
   public final TextView mainActivityTvEmptyNote;
 
-  private FragmentEmptyNoteBinding(@NonNull FrameLayout rootView,
-      @NonNull LinearLayout mainActivityContent, @NonNull ImageView mainActivityIvEmptyNote,
-      @NonNull TextView mainActivityTvEmptyNote) {
+  private FragmentEmptyNoteBinding(@NonNull LinearLayout rootView,
+      @NonNull ImageView mainActivityIvEmptyNote, @NonNull TextView mainActivityTvEmptyNote) {
     this.rootView = rootView;
-    this.mainActivityContent = mainActivityContent;
     this.mainActivityIvEmptyNote = mainActivityIvEmptyNote;
     this.mainActivityTvEmptyNote = mainActivityTvEmptyNote;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -66,12 +60,6 @@ public final class FragmentEmptyNoteBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.main_activity_content;
-      LinearLayout mainActivityContent = ViewBindings.findChildViewById(rootView, id);
-      if (mainActivityContent == null) {
-        break missingId;
-      }
-
       id = R.id.main_activity_iv_empty_note;
       ImageView mainActivityIvEmptyNote = ViewBindings.findChildViewById(rootView, id);
       if (mainActivityIvEmptyNote == null) {
@@ -84,8 +72,8 @@ public final class FragmentEmptyNoteBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentEmptyNoteBinding((FrameLayout) rootView, mainActivityContent,
-          mainActivityIvEmptyNote, mainActivityTvEmptyNote);
+      return new FragmentEmptyNoteBinding((LinearLayout) rootView, mainActivityIvEmptyNote,
+          mainActivityTvEmptyNote);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

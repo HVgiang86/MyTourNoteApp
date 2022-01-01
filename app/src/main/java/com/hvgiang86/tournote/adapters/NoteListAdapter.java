@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -43,7 +42,7 @@ public class NoteListAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater layoutInflater = activity.getLayoutInflater();
-        convertView = layoutInflater.inflate(R.layout.note_item,null);
+        convertView = layoutInflater.inflate(R.layout.item_note,null);
 
         TextView noteIdTextView = (TextView) convertView.findViewById(R.id.item_note_tv_note_id);
         TextView noteTitle = (TextView) convertView.findViewById(R.id.item_note_tv_note_title);

@@ -2116,7 +2116,6 @@ id line3
 id linear
 id listMode
 id list_item
-id main_activity_content
 id main_activity_drawer_layout
 id main_activity_iv_empty_note
 id main_activity_iv_header_avatar
@@ -2457,6 +2456,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_empty_note
 layout fragment_note_list
+layout item_note
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2500,7 +2500,6 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
-layout note_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
